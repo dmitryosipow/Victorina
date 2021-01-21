@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class Victorina : MonoBehaviour
 {
+    [SerializeField]private Animator[] anim;
     public Image questionImage;
 
     public Button button1;
